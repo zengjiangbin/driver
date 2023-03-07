@@ -3,6 +3,6 @@ package service
 type Service interface {
 	Init()
 	Start()
-	Name() ServiceName
+	Name() Name
 	Version() string
 }

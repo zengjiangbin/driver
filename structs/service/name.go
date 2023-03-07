@@ -1,8 +1,8 @@
 package service
 
-type ServiceName string
+type Name string
 
 const (
-	HalLServiceName ServiceName = "hall"
-	SlbServiceName  ServiceName = "slb"
+	HalLServiceName Name = "hall"
+	SlbServiceName  Name = "slb"
 )
